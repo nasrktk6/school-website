@@ -47,13 +47,16 @@
         .school-image {
             width: 100%;
             max-width: 600px;
-            height: 300px;
-            background-color: #ddd;
             margin: 20px auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display: block;
             border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+        .image-caption {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-top: 5px;
         }
     </style>
 </head>
@@ -73,9 +76,10 @@
         <h2>Welcome to Our College</h2>
         <p>Welcome to Klaipedos Valstybine Kolegija! We provide excellent education and prepare students for successful careers.</p>
         
-        <div class="school-image">
-            [School Building Photo - Sample Image]
-        </div>
+        <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" 
+             alt="College Building" 
+             class="school-image">
+        <p class="image-caption">Our college campus - Sample Image</p>
         
         <h3>Why Choose Our College?</h3>
         <ul>
